@@ -1,7 +1,8 @@
 select {
-    width: 96%;
+    width: 33%;
 }
 
-#selectDiv {
-    margin: 2px;
+#selects {
+    display: flex;
+    justify-content: space-between;
 }

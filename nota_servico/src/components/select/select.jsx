@@ -1,13 +1,11 @@
 import React from 'react';
 import '../select/select.css';
 
-const Select = () => {
+const Select = (props) => {
     return(
-        <div id='selectDiv'>
-            <select name="selectCel" id="selectCel">
-                <option value="0">Selecione um Modelo</option>
-            </select>
-        </div>
+        <select name="selectCel" id="selectCel">
+            <option value="0">Selecione um {props.tipo}</option>
+        </select>
     );
 }
 
