@@ -1,0 +1,32 @@
+#body {
+    background-color: rgb(224, 224, 224);
+    border: solid 3px rgb(190, 190, 190);
+    border-radius: 5px;
+    margin: 5px;
+    height: 250px;
+    display: flex;
+}
+
+#description {
+    margin: 5px;
+    width: 70%;
+}
+
+#currentValue {
+    border: solid 3px rgb(82, 82, 82);
+    border-radius: 5px;
+    margin: 5px;
+    height: 50%;
+}
+
+#currentView {
+    width: 30%;
+    margin: 5px;
+}
+
+#currentActions {
+    border: solid 3px rgb(82, 82, 82);
+    border-radius: 5px;
+    margin: 5px;
+    height: 39%;
+}
