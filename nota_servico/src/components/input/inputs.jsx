@@ -1,13 +1,16 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import InputMask from 'react-input-mask';
 import '../input/inputs.css';
 
-const Inputs = () => {
-
+const Inputs = (props) => {
 
     return(
         <div id='inputs'>
-            <input type="text" placeholder='Nome' />
+            <InputMask 
+                className='inputField' 
+                type={props.type} 
+                placeholder={props.placeholder}
+            />
         </div>
     );
 }

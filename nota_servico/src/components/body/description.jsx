@@ -8,8 +8,8 @@ const Description = () => {
 
     return(
         <div id='description'>
-            <Inputs/>
-            <Inputs/>
+            <Inputs placeholder='Nome' type='text' />
+            <Inputs placeholder='Telefone' type='number' />
             <Select/>
             <TextArea/>
         </div>
