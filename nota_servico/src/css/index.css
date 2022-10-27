@@ -4,6 +4,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#root {
+    max-width: 1200px;
+    margin: auto;
+}
+
 body {
     background: linear-gradient(45deg, #EDE4E0, #C8DBBE, #9F8772, #665A48);
     background-size: 300% 300%;
